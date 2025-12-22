@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__jupyter__notebook_create",
+      "mcp__jupyter__notebook_add_cell",
+      "mcp__jupyter__notebook_read",
+      "mcp__jupyter__notebook_edit_cell",
+      "mcp__jupyter__notebook_read_cell",
+      "Bash(dir:*)",
+      "mcp__jupyter__notebook_validate",
+      "mcp__jupyter__notebook_delete_cell"
+    ]
+  }
+}
