@@ -8,7 +8,8 @@
       "mcp__jupyter__notebook_read_cell",
       "Bash(dir:*)",
       "mcp__jupyter__notebook_validate",
-      "mcp__jupyter__notebook_delete_cell"
+      "mcp__jupyter__notebook_delete_cell",
+      "Bash(pdflatex:*)"
     ]
   }
 }
