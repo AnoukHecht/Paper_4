@@ -1,0 +1,18 @@
+\begin{table}
+\caption{Comprehensive experimental results across all four studies}
+\label{tab:complete_results}
+\begin{tabular}{llrrr}
+\toprule
+Category & Model & Params & Val Acc (\%) & Gap (\%) \\
+\midrule
+Exp1: MLP Study & MLP Width=256 & 203530 & 88.92 & 3.89 \\
+Exp1: MLP Study & Simple MLP & 101770 & 88.81 & 2.91 \\
+Exp1: MLP Study & Deep MLP & 242762 & 88.42 & 4.52 \\
+Exp2: CNN Study & Deeper CNN & 824650 & 92.19 & 6.52 \\
+Exp2: CNN Study & Simple CNN & 804554 & 91.47 & 4.65 \\
+Exp3: Regularization & CNN Dropout=0.0 & 824650 & 92.37 & 6.10 \\
+Exp3: Regularization & CNN Dropout=0.3 & 824650 & 92.17 & 4.58 \\
+Exp4: Learning Rate & CNN LR=0.001 & 824650 & 92.35 & 6.40 \\
+\bottomrule
+\end{tabular}
+\end{table}
