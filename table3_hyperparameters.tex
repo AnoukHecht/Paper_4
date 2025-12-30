@@ -1,0 +1,18 @@
+\begin{table}
+\caption{Hyperparameter sensitivity: Effect of dropout and learning rate on model performance}
+\label{tab:hyperparameters}
+\begin{tabular}{lrrrl}
+\toprule
+Hyperparameter & Value & Val Acc (\%) & Gap (\%) & Converge (epochs) \\
+\midrule
+Dropout & 0.000 & 91.858 & 7.046 & – \\
+Dropout & 0.200 & 92.358 & 5.396 & – \\
+Dropout & 0.300 & 92.458 & 4.360 & – \\
+Dropout & 0.500 & 92.625 & 2.494 & – \\
+Learning Rate & 0.100 & 85.250 & 0.996 & 4.000 \\
+Learning Rate & 0.010 & 90.725 & 5.356 & 1.000 \\
+Learning Rate & 0.001 & 91.925 & 6.640 & 1.000 \\
+Learning Rate & 0.000 & 91.433 & 3.431 & 1.000 \\
+\bottomrule
+\end{tabular}
+\end{table}

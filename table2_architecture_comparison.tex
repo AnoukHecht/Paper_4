@@ -1,0 +1,14 @@
+\begin{table}
+\caption{Architecture comparison: CNNs vs MLPs on parameter efficiency and performance}
+\label{tab:architecture_comparison}
+\begin{tabular}{llrrrrr}
+\toprule
+Architecture & Type & Params & Val Acc (\%) & Gap (\%) & Acc/10K & Time/Epoch (s) \\
+\midrule
+Deeper CNN & CNN & 824650 & 91.76 & 7.03 & 1.11 & 57.61 \\
+Simple CNN & CNN & 804554 & 91.32 & 3.74 & 1.13 & 23.92 \\
+Deep MLP & MLP & 242762 & 88.75 & 4.31 & 3.66 & 1.11 \\
+Simple MLP & MLP & 101770 & 88.23 & 3.27 & 8.67 & 0.58 \\
+\bottomrule
+\end{tabular}
+\end{table}
